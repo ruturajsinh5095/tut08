@@ -10,7 +10,7 @@ import { User } from './models/user';
 })
 export class AuthService {
 
-  url = "https://authvideoapi.herokuapp.com/api/";
+  url = "https://authvideo.herokuapp.com/api/";
 
   isLoading:BehaviorSubject<boolean> = new BehaviorSubject<boolean>(true);
   constructor(private _http: HttpClient, private _router: Router) { }
