@@ -1,7 +1,7 @@
-<mat-toolbar *ngIf="this._authService.isLoggedIn()" color="primary" class="navbar">
-    <div>Mohit Ratanpara - 19SOECE13007</div>
+<mat-toolbar *ngIf="this._authService.isLoggedIn()" color="dark" class="navbar">
+    <div>Parth Agravat - 19SOECE13031</div>
     <div>
-        <a class="text-white" routerLink="/videos">Video's</a>
+        <a routerLink="/videos">Video's</a>
         <a *ngIf="this._authService.isLoggedIn()" (click)="logout()" class="btn btn-danger ml-2"><i
                 class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
     </div>
